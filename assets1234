@@ -1,0 +1,7 @@
+Pyxel 1.9.0, a retro game engine for Python
+usage:
+    pyxel run PYTHON_SCRIPT_FILE(.py)
+    pyxel play PYXEL_APP_FILE(.pyxapp)
+    pyxel edit [PYXEL_RESOURCE_FILE(.pyxres)]
+    pyxel package APP_ROOT_DIR STARTUP_SCRIPT_FILE(.py)
+    pyxel copy_examples
