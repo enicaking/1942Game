@@ -1,4 +1,7 @@
 import random
+
+import pyxel
+
 import CONSTANTS
 
 
@@ -18,5 +21,4 @@ class Regular:
         self.power = 500
         self.amount = random.randint(3, 5)
         self.bullet = 1
-        self.sprite = None
 

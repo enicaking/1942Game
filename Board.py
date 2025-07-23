@@ -5,6 +5,8 @@ from Background import Background
 import pyxel
 import CONSTANTS
 
+
+
 class Board:
     def __init__(self, w: int, h: int):
         # Initializing the object
@@ -56,20 +58,22 @@ class Board:
             self.bulletsplayer.append(Bullet(self.plane.x + (CONSTANTS.PLANE_WIDTH - CONSTANTS.BULLET_WIDTH) /
                                              2, self.plane.y - CONSTANTS.BULLET_HEIGHT / 2))
 
-            for i in range(0, len(self.bulletsplayer)):
-                Bullet.update(self.bulletsplayer[i])
-                if self.bulletsplayer[i].y == CONSTANTS.Y:
-                    self.bulletsplayer.pop(i)
+        for i in range(0, len(self.bulletsplayer)):
+            Bullet.update(self.bulletsplayer[i])
+            if self.bulletsplayer[i].y == CONSTANTS.Y:
+                self.bulletsplayer.pop(i)
 
 
 
     def draw(self):
         pyxel.cls(0)
-        pyxel.blt(self.plane.x, self.plane.y, *self.plane.sprite)
-
-        for i in range (0,len(self.bulletsplayer)):
-            self.bulletsplayer[i].draw()
 
         self.background.draw()
 
+        for bullet in self.bulletsplayer:
+            bullet.draw()
+
+        pyxel.blt(self.plane.x, self.plane.y, *self.plane.sprite)
+
         pyxel.text(20, 4, f"SCORE {self.score:5}", 7)
+
