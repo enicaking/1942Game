@@ -1,5 +1,11 @@
+# Plane.py
+# Enica King and Estefany Gonzalez
+# Code for 1942Game Plane class
+
+
 import pyxel
 import CONSTANTS
+
 
 class Plane:
     def __init__(self, x: int, y:int):
@@ -31,6 +37,4 @@ class Plane:
 
         elif direction.lower() == 'down' and self.y > 0:
             self.y -= self.speed
-
-
 

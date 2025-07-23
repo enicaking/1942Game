@@ -1,5 +1,11 @@
+# Bullets.py
+# Enica King and Estefany Gonzalez
+# Code for 1942Game Bullet class
+
+
 import pyxel
 import CONSTANTS
+
 
 class Bullet:
     def __init__(self, x, y):

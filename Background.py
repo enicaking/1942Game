@@ -1,5 +1,12 @@
+# Background.py
+# Enica King and Estefany Gonzalez
+# Code for 1942Game Background class
+
+
 import CONSTANTS
 import pyxel
+
+
 class Background:
     def __init__(self):
         self.stars = []

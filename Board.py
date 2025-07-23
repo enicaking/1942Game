@@ -1,10 +1,14 @@
+# Board.py
+# Enica King and Estefany Gonzalez
+# Code for 1942Game Board
+
+
 from Plane import Plane
 from Bullets import Bullet
 from enemies import Regular
 from Background import Background
 import pyxel
 import CONSTANTS
-
 
 
 class Board:
@@ -58,11 +62,8 @@ class Board:
             self.bulletsplayer.append(Bullet(self.plane.x + (CONSTANTS.PLANE_WIDTH - CONSTANTS.BULLET_WIDTH) /
                                              2, self.plane.y - CONSTANTS.BULLET_HEIGHT / 2))
 
-        for i in range(0, len(self.bulletsplayer)):
-            Bullet.update(self.bulletsplayer[i])
-            if self.bulletsplayer[i].y == CONSTANTS.Y:
-                self.bulletsplayer.pop(i)
-
+        self.update_list(self.bulletsplayer)
+        self.clean_list(self.bulletsplayer)
 
 
     def draw(self):
