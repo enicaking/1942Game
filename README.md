@@ -1,8 +1,11 @@
 # 1942Game-repo
 
 ## Repository for Class Project 1942Game
-First person 2D shooter game in the style of Space Invaders
-Programming class project by Enica King and Estéfany González
+One player 2D shooter game remaking classic 1942 arcade game
+First year Programming class project by [Enica King](https://github.com/enicaking) and [Estéfany González](https://github.com/estefanygonzalez)
+Developed coding skills in Python and gained an understnading of OOP 
+This project was made possible with the [pyxel package](https://github.com/kitao/pyxel) developed by kitao 
+Inspiration taken from pyxel example project [shooter](https://github.com/kitao/pyxel/blob/main/python/pyxel/examples/09_shooter.py)
 
 ## Installation Prerequisites
 * Latest version of [Python](https://www.python.org/downloads/)
@@ -22,3 +25,8 @@ After successful installation of Python, the steps needed to run the code are as
 ### Gameplay
 
 ### Exiting Game
+
+## Code Structure (TBC)
+### Classes
+
+### Methods
