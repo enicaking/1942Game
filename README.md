@@ -11,5 +11,14 @@ Programming class project by Enica King and Estéfany González
 ## Installation Steps
 After successful installation of Python, the steps needed to run the code are as follows:
 
-1. 
+1. Open project in Pycharm
+2. Set local interpreter.
+  * Windows: Use existing folder and navigate to .venv > Scripts > python.exe
+  * macOS/Linux: Create new virtual environment and use requirements.txt to download necessary packages using `pip install -r /path/to/requirements.txt`
 
+## Game Functionality (TBC)
+### Loading Screen
+
+### Gameplay
+
+### Exiting Game
