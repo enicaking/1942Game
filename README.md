@@ -1,11 +1,9 @@
 # 1942Game-repo
 
 ## Repository for Class Project 1942Game
-One player 2D shooter game remaking classic 1942 arcade game
-First year Programming class project by [Enica King](https://github.com/enicaking) and [Estéfany González](https://github.com/estefanygonzalez)
-Developed coding skills in Python and gained an understnading of OOP 
-This project was made possible with the [pyxel package](https://github.com/kitao/pyxel) developed by kitao 
-Inspiration taken from pyxel example project [shooter](https://github.com/kitao/pyxel/blob/main/python/pyxel/examples/09_shooter.py)
+This repository hosts code for a one player 2D shooter game remaking classic 1942 arcade game, a class project undertaken in the first year of university by [Enica King](https://github.com/enicaking) and [Estéfany González](https://github.com/estefanygonzalez). This allowed us to develop our Programming skills in Python and gained an understnading of OOP. 
+
+This project was made possible with the [pyxel package](https://github.com/kitao/pyxel) developed by kitao and uses as a base framework the package's example project [shooter](https://github.com/kitao/pyxel/blob/main/python/pyxel/examples/09_shooter.py).
 
 ## Installation Prerequisites
 * Latest version of [Python](https://www.python.org/downloads/)
